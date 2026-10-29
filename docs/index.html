@@ -1,0 +1,263 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#08111f">
+  <meta name="description" content="CyberSafe AI helps people learn about online scams and digital safety.">
+  <title>CyberSafe AI | Stay Aware. Stay Secure.</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="#home" data-page="home">
+      <span class="brand-icon">⬡</span>
+      CyberSafe<span class="brand-ai">AI</span>
+    </a>
+    <button id="menuToggle" class="menu-toggle" aria-label="Toggle navigation">☰</button>
+    <nav id="nav">
+      <a href="#home" data-page="home" class="nav-link active">Home</a>
+      <a href="#threats" data-page="threats" class="nav-link">Threats</a>
+      <a href="#analyzer" data-page="analyzer" class="nav-link">AI Analyzer</a>
+      <a href="#assistant" data-page="assistant" class="nav-link">AI Assistant</a>
+      <a href="#quiz" data-page="quiz" class="nav-link">Quiz</a>
+      <a href="#help" data-page="help" class="nav-link">Emergency Help</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="page active-page">
+      <div class="hero">
+        <div class="hero-copy">
+          <span class="eyebrow"><span class="pulse"></span> YOUR DIGITAL SAFETY COMPANION</span>
+          <h1>Think smart.<br>Browse <span class="gradient-text">safe.</span></h1>
+          <p>Understand online threats, analyze suspicious messages with AI,
+            and build safer digital habits with CyberSafe AI.</p>
+          <div class="hero-actions">
+            <button class="btn btn-primary" data-go="analyzer">Analyze a message ↗</button>
+            <button class="btn btn-secondary" data-go="threats">Explore cyber threats</button>
+          </div>
+          <div class="trust-note">Educational guidance · Privacy-conscious · Easy to use</div>
+        </div>
+        <div class="hero-art">
+          <div class="orbit orbit-one"></div>
+          <div class="orbit orbit-two"></div>
+          <div class="shield">
+            <span>✓</span>
+          </div>
+          <div class="float-card float-top">◉ &nbsp; Threat awareness</div>
+          <div class="float-card float-bottom">✦ &nbsp; AI-powered guidance</div>
+        </div>
+      </div>
+
+      <div class="section-heading">
+        <div><span class="eyebrow">YOUR SAFETY TOOLKIT</span>
+          <h2>One portal. Smarter protection.</h2></div>
+        <p>Learn to spot warning signs before you click.</p>
+      </div>
+
+      <div class="feature-grid">
+        <article class="feature-card" data-go="threats" tabindex="0">
+          <span class="feature-icon blue">⌘</span>
+          <h3>Know the threats</h3>
+          <p>Explore common scams and understand how they work.</p>
+          <span class="card-link">Explore threats →</span>
+        </article>
+        <article class="feature-card" data-go="analyzer" tabindex="0">
+          <span class="feature-icon purple">✳</span>
+          <h3>AI scam analyzer</h3>
+          <p>Get an AI assessment of suspicious messages and warning signs.</p>
+          <span class="card-link">Analyze a message →</span>
+        </article>
+        <article class="feature-card" data-go="assistant" tabindex="0">
+          <span class="feature-icon cyan">✧</span>
+          <h3>Ask CyberSafe AI</h3>
+          <p>Get straightforward answers to cybersecurity questions.</p>
+          <span class="card-link">Ask a question →</span>
+        </article>
+        <article class="feature-card" data-go="quiz" tabindex="0">
+          <span class="feature-icon green">✓</span>
+          <h3>Test your knowledge</h3>
+          <p>Practice recognizing unsafe online situations.</p>
+          <span class="card-link">Take the quiz →</span>
+        </article>
+      </div>
+
+      <div class="notice">
+        <span>ⓘ</span>
+        <p><strong>Remember:</strong> Never share your password, PIN, OTP, or banking credentials.
+          AI assessments can make mistakes, so always verify independently.</p>
+      </div>
+    </section>
+
+    <section id="threats" class="page">
+      <div class="page-heading">
+        <span class="eyebrow">LEARN THE WARNING SIGNS</span>
+        <h1>Know your <span class="gradient-text">enemy.</span></h1>
+        <p>Explore common digital threats and learn how to avoid them.</p>
+      </div>
+      <div class="threat-grid">
+        <article class="panel threat-card"><span class="feature-icon blue">₹</span>
+          <h3>UPI & payment scams</h3>
+          <p>Fraudsters may impersonate buyers, send fake payment screenshots,
+            or trick users into approving payment requests.</p>
+          <strong>Stay safe</strong><p>Verify transactions in your official payment app.
+            A QR code or collect request should never be approved blindly to receive money.</p>
+        </article>
+        <article class="panel threat-card"><span class="feature-icon purple">✉</span>
+          <h3>Phishing messages</h3>
+          <p>Fake emails and texts imitate banks, delivery services, or familiar companies.</p>
+          <strong>Stay safe</strong><p>Check the sender and domain carefully.
+            Visit official websites yourself instead of following unexpected links.</p>
+        </article>
+        <article class="panel threat-card"><span class="feature-icon cyan">⌕</span>
+          <h3>Fake job offers</h3>
+          <p>Scammers may promise high earnings and demand registration fees or deposits.</p>
+          <strong>Stay safe</strong><p>Verify employers through independent official sources.
+            Be suspicious of guaranteed earnings and upfront payment demands.</p>
+        </article>
+        <article class="panel threat-card"><span class="feature-icon green">▣</span>
+          <h3>Shopping fraud</h3>
+          <p>Fake stores may advertise unrealistic discounts or never deliver purchased items.</p>
+          <strong>Stay safe</strong><p>Research the seller, return policy, and independent reviews.
+            Use protected payment methods where possible.</p>
+        </article>
+        <article class="panel threat-card"><span class="feature-icon orange">!</span>
+          <h3>OTP & impersonation scams</h3>
+          <p>Someone pretends to be a bank official or authority and pressures you to reveal secrets.</p>
+          <strong>Stay safe</strong><p>Never disclose OTPs or PINs. End unexpected calls and
+            contact the organization through its verified contact details.</p>
+        </article>
+        <article class="panel threat-card"><span class="feature-icon pink">⌑</span>
+          <h3>Account takeover</h3>
+          <p>Attackers try to gain access through stolen passwords, reused credentials, or social engineering.</p>
+          <strong>Stay safe</strong><p>Use unique passwords, a password manager, and
+            multifactor authentication wherever available.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="analyzer" class="page">
+      <div class="page-heading">
+        <span class="eyebrow">AI-POWERED ANALYSIS</span>
+        <h1>Suspicious message? <span class="gradient-text">Let's inspect it.</span></h1>
+        <p>Paste a suspicious message to get an AI assessment of possible scam indicators.</p>
+      </div>
+      <div class="analyzer-layout">
+        <div class="panel form-panel">
+          <label for="messageInput">Suspicious message</label>
+          <textarea id="messageInput" maxlength="4000"
+            placeholder="Example: Your account will be blocked today. Verify immediately using this link..."></textarea>
+          <div class="field-meta"><span>Remove personal details before pasting.</span>
+            <span id="charCount">0 / 4000</span></div>
+          <div class="sample-row">
+            <span>Try a sample:</span>
+            <button class="text-button" id="loadSample">Load suspicious SMS</button>
+          </div>
+          <button id="analyzeBtn" class="btn btn-primary full-width">✳ Analyze with AI</button>
+          <p class="disclaimer">AI can be wrong. A low-risk result does not prove a message is safe.</p>
+        </div>
+        <div class="panel result-panel">
+          <div class="result-header"><span class="feature-icon purple">✳</span>
+            <div><h3>Analysis report</h3><p>AI-generated guidance</p></div>
+          </div>
+          <div id="analysisStatus" class="status-line">Waiting for a message to analyze.</div>
+          <pre id="analysisResult" class="output-box">Your analysis will appear here, including the risk level, warning signs, and recommended actions.</pre>
+        </div>
+      </div>
+    </section>
+
+    <section id="assistant" class="page">
+      <div class="page-heading">
+        <span class="eyebrow">YOUR CYBERSECURITY GUIDE</span>
+        <h1>Ask <span class="gradient-text">CyberSafe AI.</span></h1>
+        <p>Ask questions about online scams, privacy, and digital safety.</p>
+      </div>
+      <div class="panel chat-panel">
+        <div class="chat-title"><span class="bot-avatar">✳</span>
+          <div><h3>CyberSafe Assistant</h3><span class="online-dot"></span> Educational assistant</div>
+        </div>
+        <div id="chatMessages" class="chat-messages" aria-live="polite">
+          <div class="chat-bubble bot">Hi! I'm CyberSafe AI. Ask me how to recognize scams, protect your accounts, or respond to suspicious messages.</div>
+        </div>
+        <div class="suggestions">
+          <button class="suggestion" data-question="How can I identify a phishing message?">Identify phishing</button>
+          <button class="suggestion" data-question="What should I do if I shared an OTP with a scammer?">Shared an OTP</button>
+          <button class="suggestion" data-question="How can I make my accounts safer?">Secure my accounts</button>
+        </div>
+        <form id="chatForm" class="chat-form">
+          <input id="chatInput" maxlength="2000" placeholder="Ask a cybersecurity question..." autocomplete="off" required>
+          <button class="btn btn-primary" id="chatSend" type="submit">Send ↗</button>
+        </form>
+        <p class="disclaimer">Do not enter personal or financial secrets. Answers are educational, not an official investigation.</p>
+      </div>
+    </section>
+
+    <section id="quiz" class="page">
+      <div class="page-heading">
+        <span class="eyebrow">PRACTICE MAKES YOU SAFER</span>
+        <h1>Cyber safety <span class="gradient-text">challenge.</span></h1>
+        <p>Test your knowledge with five quick questions.</p>
+      </div>
+      <div class="panel quiz-panel">
+        <div class="quiz-progress"><span id="questionNumber">Question 1 of 5</span>
+          <span id="quizScore">Score: 0</span></div>
+        <div class="progress-track"><div id="progressBar"></div></div>
+        <h2 id="questionText"></h2>
+        <div id="quizOptions" class="quiz-options"></div>
+        <p id="quizFeedback" class="quiz-feedback" aria-live="polite"></p>
+        <div class="quiz-actions">
+          <button id="nextQuestion" class="btn btn-primary" disabled>Next question →</button>
+          <button id="restartQuiz" class="btn btn-secondary">Restart</button>
+        </div>
+      </div>
+    </section>
+
+    <section id="help" class="page">
+      <div class="page-heading">
+        <span class="eyebrow">IF SOMETHING GOES WRONG</span>
+        <h1>Get help. <span class="gradient-text">Act quickly.</span></h1>
+        <p>If you suspect cyber fraud, take practical steps and use official reporting channels.</p>
+      </div>
+      <div class="help-grid">
+        <article class="panel help-card urgent">
+          <span class="feature-icon orange">!</span>
+          <h3>Suspected financial cyber fraud in India?</h3>
+          <p>Contact your bank or payment provider promptly, preserve relevant evidence,
+            and report the incident through official channels.</p>
+          <a class="btn btn-primary" href="https://cybercrime.gov.in/" target="_blank" rel="noopener noreferrer">Official cybercrime portal ↗</a>
+          <a class="help-link" href="tel:1930">Cyber fraud helpline: 1930</a>
+          <p class="disclaimer">Use 1930 for reporting suspected financial cyber fraud in India.
+            Follow the official portal's current instructions.</p>
+        </article>
+        <article class="panel help-card">
+          <span class="feature-icon cyan">✓</span>
+          <h3>Secure your accounts</h3>
+          <ul>
+            <li>Contact your bank immediately if payment credentials or funds are at risk.</li>
+            <li>Change compromised passwords using the official website or app.</li>
+            <li>Revoke unfamiliar sessions and enable multifactor authentication.</li>
+            <li>Save messages, transaction IDs, and other relevant evidence.</li>
+            <li>Do not pay someone promising guaranteed recovery of lost money.</li>
+          </ul>
+        </article>
+      </div>
+      <div class="panel resource-panel">
+        <h3>Trusted resources</h3>
+        <a href="https://www.cert-in.org.in/" target="_blank" rel="noopener noreferrer">CERT-In — Cybersecurity advisories ↗</a>
+        <a href="https://cybercrime.gov.in/" target="_blank" rel="noopener noreferrer">National Cyber Crime Reporting Portal ↗</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <a class="brand" href="#home" data-page="home">⬡ CyberSafe<span class="brand-ai">AI</span></a>
+    <p>Built for digital awareness. Stay alert, verify, and protect your information.</p>
+    <span>Educational project · AI results are not guarantees</span>
+  </footer>
+
+  <div id="toast" class="toast" role="status"></div>
+</body>
+</html>
